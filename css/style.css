@@ -1096,7 +1096,7 @@ body.ie ._ibg img {
   margin-top: 30px;
 }
 
-.form__label {
+.form__info {
   text-align: center;
   margin-bottom: 30px;
   font-family: "Trebuchet MS";
@@ -1432,7 +1432,7 @@ body.ie ._ibg img {
   opacity: 1;
   visibility: visible;
   position: absolute;
-  bottom: -155px;
+  top: 55px;
   display: none;
 }
 
@@ -2591,6 +2591,7 @@ body.ie ._ibg img {
   display: -ms-flexbox;
   display: flex;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .post__author-image {
@@ -3990,12 +3991,9 @@ body.ie ._ibg img {
   overflow: hidden;
   -o-text-overflow: ellipsis;
      text-overflow: ellipsis;
-  display: -moz-box;
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
-  line-clamp: 4;
-  box-orient: vertical;
 }
 
 .more__link {
@@ -6840,7 +6838,7 @@ body:before {
 
   .menu__more {
     position: inherit;
-    bottom: 0;
+    top: 0;
     width: 100%;
     left: 0;
   }
@@ -8014,7 +8012,7 @@ body:before {
     width: 100%;
   }
 
-  .form__label {
+  .form__info {
     margin-bottom: 10px;
   }
 
